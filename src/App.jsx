@@ -1,13 +1,12 @@
-import { useState } from 'react'
-
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-    <h1 className="text-3xl font-bold underline">
-      DRAGON BALL
-    </h1>
+    <div className="min-h-screen bg-red-950 flex items-center justify-center">
+      <h1 className="text-3xl font-bold underline">
+        DRAGON BALL
+      </h1>
+    </div>
     </>
   )
 }
